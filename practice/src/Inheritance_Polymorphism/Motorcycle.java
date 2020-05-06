@@ -17,4 +17,8 @@ public class Motorcycle extends AbstractVehicle {
         return 2;
     }
 
+    @Override
+    public String getFuelType() {
+        return "Petrol";
+    }
 }

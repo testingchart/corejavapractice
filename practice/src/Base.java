@@ -1,5 +1,6 @@
 import Inheritance_Polymorphism.Bus;
 import Inheritance_Polymorphism.Car;
+import Inheritance_Polymorphism.Motorcycle;
 
 public class Base {
     public static void main(String[] args) throws Exception {
@@ -29,7 +30,7 @@ public class Base {
         Object.verifyLogin();*/
 
        //Inheritance_Polymorphism.Vehicle vehicle = new Bus(); won't work until implements interface Vehicle.java
-        Inheritance_Polymorphism.AbstractVehicle abstractVehicle = new Bus();
+        Inheritance_Polymorphism.AbstractVehicle abstractVehicle = new Motorcycle();
         System.out.println(abstractVehicle.toString());
     }
 }

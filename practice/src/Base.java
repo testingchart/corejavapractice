@@ -1,3 +1,6 @@
+import Inheritance_Polymorphism.Bus;
+import Inheritance_Polymorphism.Car;
+
 public class Base {
     public static void main(String[] args) throws Exception {
         //Loops.forLoops();
@@ -21,7 +24,12 @@ public class Base {
         String moreMthdz = Methods.userLogin("Kodizen", 123456);
         System.out.println(moreMthdz);*/
 
+        /* Objects
         Object.createUser();
-        Object.verifyLogin();
+        Object.verifyLogin();*/
+
+       //Inheritance_Polymorphism.Vehicle vehicle = new Bus(); won't work until implements interface Vehicle.java
+        Inheritance_Polymorphism.AbstractVehicle abstractVehicle = new Bus();
+        System.out.println(abstractVehicle.toString());
     }
 }

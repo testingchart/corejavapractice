@@ -1,5 +1,5 @@
 public class Base {
-    public static void main(String[] args) {
+    public static void main(String[] args) throws Exception {
         //Loops.forLoops();
         //Loops.whileLoops();
         //DataStructures.array();
@@ -21,5 +21,7 @@ public class Base {
         String moreMthdz = Methods.userLogin("Kodizen", 123456);
         System.out.println(moreMthdz);*/
 
+        Object.createUser();
+        Object.verifyLogin();
     }
 }

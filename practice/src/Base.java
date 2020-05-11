@@ -30,7 +30,15 @@ public class Base {
         Object.verifyLogin();*/
 
        //Inheritance_Polymorphism.Vehicle vehicle = new Bus(); won't work until implements interface Vehicle.java
-        Inheritance_Polymorphism.AbstractVehicle abstractVehicle = new Motorcycle();
-        System.out.println(abstractVehicle.toString());
+       // Inheritance_Polymorphism.AbstractVehicle abstractVehicle = new Motorcycle();
+       // System.out.println(abstractVehicle.toString());
+
+        //System.out.println(Exceptions.readFile());
+        //System.out.println(Exceptions.readTest());
+       //System.out.println(Exceptions.sample());
+
+        //throw new CustomExceptions("Invalid Check");
+        //throw new CustomExceptions("Overflow", new IllegalStateException("Huge Data set supplied"));
+
     }
 }

@@ -40,5 +40,6 @@ public class Base {
         //throw new CustomExceptions("Invalid Check");
         //throw new CustomExceptions("Overflow", new IllegalStateException("Huge Data set supplied"));
 
+        StringClass.string();
     }
 }
